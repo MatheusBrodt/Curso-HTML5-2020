@@ -8,6 +8,7 @@
 body {
     background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div#interface {
@@ -51,6 +52,15 @@ header#cabecalho h2{
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Formatação de imagens com legandas */
@@ -116,6 +126,43 @@ section#corpo {
     padding-right: 15px;
 }
 
+section#corpo h2 {
+    background-color: #cecece;
+    color: #606060;
+    font-size: 15pt;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+    color: #606060;
+    font-size: 20pt;
+    font-family: 'FonteLogo', sans-serif;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    color: #dddddd;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+header#cabecalho-artigo h2 {
+    color: #dddddd;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h3.right {
+    text-align: right;
+    color: #3d3c3c;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 table#tabelaspec {
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -161,6 +208,20 @@ aside#lateral {
     display: block;
     width: 500px;
     float: right;
+}
+
+aside#lateral h1 {
+    color: #606060;
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+}
+
+aside#lateral h2 {
+    color: #ffffff;
+    background-color: #3d3c3c;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    font-size: 13pt;
 }
 
 footer#rodape {
