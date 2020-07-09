@@ -118,7 +118,10 @@ nav#menu li:hover {
     background-color: rgba(0, 0, 0, .5);
     padding: 10px;
     margin: 2px;
+    -webkit-transition: all 0.3s ease-in;
 }
+
+
 
 nav#menu h1{
     display: none;
