@@ -1,5 +1,4 @@
-@charset "UTF-8"
-
+@charset "UTF-8";
 
 /*Formataçao de textos do corpo-full*/
 section#corpo-full h1 {
@@ -8,6 +7,7 @@ section#corpo-full h1 {
     font-family: 'FonteLogo', sans-serif;
     margin-bottom: 0px;
 }
+
 section#corpo-full h3 {
     color: #dddddd;
     font-size: 10pt;
@@ -39,10 +39,22 @@ input, textarea {
     font-family: sans-serif;
     font-weight: normal;
     font-size: 13pt;
+    background-color: rgba(255, 255, 255, .6);
+    border: 1px solid;
+    border-color: #888888;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 input:hover, textarea:hover {
     background-color: #dddddd;
+}
+
+input#cUrg, input#botonSend {
+    box-shadow: none;
+}
+
+input#botonSend {
+    border: none;
 }
 
 legend {
@@ -58,4 +70,20 @@ fieldset {
 }
 fieldset#sexo {
     width: 130px;
+}
+
+fieldset#usuario {
+    background: url("../_imagens/icone-contato.png") no-repeat 99% 95%;
+}
+
+fieldset#endereco {
+    background: url("../_imagens/icone-endereco.png") no-repeat 99% 95%;
+}
+
+fieldset#mensagem {
+    background: url("../_imagens/icone-mensagem.png") no-repeat 99% 95%;
+}
+
+fieldset#pedido {
+    background: url("../_imagens/icone-pagamento.png") no-repeat 99% 95%;
 }
